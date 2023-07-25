@@ -1,9 +1,12 @@
-// Function declaration
 
 function sayHello() {
-    console.log('Hello!')
+    console.log("Hello!")
 }
 
 sayHello()
-sayHello()
-sayHello()
+
+function sayHelloTo(name) {
+    console.log('Hello ' + name)
+}
+
+sayHelloTo('Mike')
